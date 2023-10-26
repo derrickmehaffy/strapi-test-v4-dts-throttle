@@ -1,0 +1,33 @@
+{
+  "name": "test-dts",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "0.0.0-experimental.b82b7a3f2c9f8a2d8521f3d9d0909af439c9997d",
+    "@strapi/plugin-users-permissions": "0.0.0-experimental.b82b7a3f2c9f8a2d8521f3d9d0909af439c9997d",
+    "@strapi/provider-upload-aws-s3": "0.0.0-experimental.b82b7a3f2c9f8a2d8521f3d9d0909af439c9997d",
+    "@strapi/strapi": "0.0.0-experimental.b82b7a3f2c9f8a2d8521f3d9d0909af439c9997d",
+    "better-sqlite3": "8.6.0",
+    "pg": "^8.11.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "2775500e-b1c1-4c75-965b-a7d288c05a78",
+    "telemetryDisabled": true
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
